@@ -6,7 +6,8 @@
 #forked from andreafabrizi/Dropbox-Uploader
 #
 #Comment the next line if you don't use Dropbox download using "Dropbox-Uploader" (API)
-"/home/user/Área de Trabalho/Google Photos/Dropbox-Uploader/"./dropbox_uploader.sh download "/Camera Uploads" "/home/user/Dropbox/"
+"/home/user/Área de Trabalho/Google Photos/Dropbox-Uploader/"./dropbox_uploader.sh download "/Camera Uploads" "$HOME/Dropbox/"
+# "/home/user/Área de Trabalho/Google Photos/Dropbox-Uploader/"./dropbox_uploader.sh download "/Camera Uploads" "/home/user/Dropbox/"
 
 bg adb shell &
 #Photos and videos from Dropbox
